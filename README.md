@@ -51,7 +51,7 @@ Cửa sổ ứng dụng Electron chuẩn 9:16 sẽ mở lên ngay trên màn hì
 ---
 
 ## ⚙ Kết Nối Với Kênh TikTok LIVE (Không Cần API):
-> **⚡ Kết nối trực tiếp 100%:** Ứng dụng kết nối trực tiếp đến TikTok Live theo giao thức WebSocket/Scraping thế hệ mới (tương tự `tiktok-live-temple-rpc`), hoàn toàn **không cần API Key**, **không cần Euler Stream API** hay bất kỳ dịch vụ tính phí bên ngoài nào!
+> **⚡ Kết nối trực tiếp 100%:** Ứng dụng kết nối trực tiếp đến TikTok Live theo giao thức WebSocket/Scraping thế hệ mới, hoàn toàn **không cần API Key**, **không cần Euler Stream API** hay bất kỳ dịch vụ tính phí bên ngoài nào!
 
 1. Bấm nút **⚙ Kết Nối** ở góc trên bên phải giao diện (hoặc thanh tiêu đề).
 2. Nhập `@username` hoặc dán thẳng đường link phòng LIVE trên TikTok (ví dụ: `https://www.tiktok.com/@kenh_live/live`).
