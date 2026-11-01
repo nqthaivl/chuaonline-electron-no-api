@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 180" width="120" height="180">
+  <defs>
+    <radialGradient id="walkShadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.6"/>
+      <stop offset="70%" stop-color="#000000" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="walkAoLam" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#b6c6d8"/>
+      <stop offset="25%" stop-color="#9eb0c4"/>
+      <stop offset="70%" stop-color="#7d91a6"/>
+      <stop offset="100%" stop-color="#64768a"/>
+    </linearGradient>
+
+    <!-- Incense Glow -->
+    <radialGradient id="incenseGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff3b0"/>
+      <stop offset="40%" stop-color="#ff7b25" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#ff4500" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Shadow -->
+  <ellipse cx="60" cy="172" rx="32" ry="7" fill="url(#walkShadow)"/>
+
+  <!-- Walking Feet & Trousers -->
+  <!-- Left Leg -->
+  <path d="M 44 140 L 42 166 Q 44 170 48 168 L 52 140 Z" fill="#64768a"/>
+  <!-- Right Leg (stepping forward) -->
+  <path d="M 68 138 L 72 164 Q 74 168 78 166 L 76 138 Z" fill="#586979"/>
+
+  <!-- Flowing Áo Lam Tunic (Long coat / vạt áo lam) -->
+  <path d="M 38 48 C 30 54 22 74 24 100 C 26 124 32 144 42 146 C 52 148 68 148 78 146 C 88 144 94 124 96 100 C 98 74 90 54 82 48 C 74 52 46 52 38 48 Z" fill="url(#walkAoLam)"/>
+
+  <!-- Back Seam & Folds -->
+  <path d="M 60 50 L 60 144" stroke="#506173" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+  <path d="M 36 78 Q 60 90 84 78" stroke="#5c6e80" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <path d="M 34 112 Q 60 126 86 112" stroke="#485664" stroke-width="1.6" fill="none" opacity="0.6"/>
+
+  <!-- Arms held up holding incense sticks in front -->
+  <path d="M 38 52 C 26 60 22 76 24 94 C 26 102 34 106 42 102 C 44 94 44 80 44 68 Z" fill="#9eb0c4"/>
+  <path d="M 82 52 C 94 60 98 76 96 94 C 94 102 86 106 78 102 C 76 94 76 80 76 68 Z" fill="#9eb0c4"/>
+
+  <!-- Collar & Neck -->
+  <path d="M 46 44 C 52 48 68 48 74 44 C 76 40 74 36 72 35 C 66 37 54 37 48 35 C 46 36 44 40 46 44 Z" fill="#8ca0b3"/>
+
+  <!-- Back of Head & Bun -->
+  <ellipse cx="60" cy="27" rx="16" ry="17" fill="#1b1411"/>
+  <ellipse cx="60" cy="17" rx="11" ry="9" fill="#1b1411"/>
+  <ellipse cx="60" cy="16" rx="7" ry="5" fill="#0d0908"/>
+
+  <!-- Three Glowing Incense Sticks held aloft in hands in front -->
+  <!-- Sticks -->
+  <line x1="56" y1="36" x2="52" y2="6" stroke="#b3391b" stroke-width="1.5"/>
+  <line x1="60" y1="35" x2="60" y2="4" stroke="#b3391b" stroke-width="1.5"/>
+  <line x1="64" y1="36" x2="68" y2="6" stroke="#b3391b" stroke-width="1.5"/>
+
+  <!-- Glowing Embers & Sacred Smoke -->
+  <circle cx="52" cy="6" r="6" fill="url(#incenseGlow)"/>
+  <circle cx="60" cy="4" r="7" fill="url(#incenseGlow)"/>
+  <circle cx="68" cy="6" r="6" fill="url(#incenseGlow)"/>
+
+  <!-- Golden Halo Rim Light from Buddha Altar -->
+  <path d="M 44 26 C 44 14 76 14 76 26" stroke="#ffe899" stroke-width="1.8" fill="none" opacity="0.7"/>
+  <path d="M 28 54 Q 38 48 48 46" stroke="#ffe899" stroke-width="1.2" fill="none" opacity="0.6"/>
+  <path d="M 92 54 Q 82 48 72 46" stroke="#ffe899" stroke-width="1.2" fill="none" opacity="0.6"/>
+</svg>
+

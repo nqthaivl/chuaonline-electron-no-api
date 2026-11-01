@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <radialGradient id="bowFloorShadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.65"/>
+      <stop offset="70%" stop-color="#000000" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="bowAoLam" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#b6c6d8"/>
+      <stop offset="35%" stop-color="#8fa3b8"/>
+      <stop offset="85%" stop-color="#64768a"/>
+      <stop offset="100%" stop-color="#485664"/>
+    </linearGradient>
+
+    <linearGradient id="bowHair" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffe8a3" stop-opacity="0.4"/>
+      <stop offset="30%" stop-color="#241a16"/>
+      <stop offset="100%" stop-color="#0d0908"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Ground Shadow -->
+  <ellipse cx="60" cy="106" rx="52" ry="12" fill="url(#bowFloorShadow)"/>
+
+  <!-- Kneeling prostration body (bent low to the floor) -->
+  <path d="M 18 102 C 14 88 28 66 42 60 C 52 56 68 56 78 60 C 92 66 106 88 102 102 C 98 110 82 112 60 112 C 38 112 22 110 18 102 Z" fill="url(#bowAoLam)"/>
+
+  <!-- Back curved down in prostration (Kowtow / Lạy Phật) -->
+  <path d="M 28 84 C 32 64 44 52 60 52 C 76 52 88 64 92 84 C 84 94 72 98 60 98 C 48 98 36 94 28 84 Z" fill="url(#bowAoLam)"/>
+
+  <!-- Hands extended forward on floor (chắp tay lạy sát đất) -->
+  <ellipse cx="44" cy="106" rx="8" ry="4" fill="#dfc09f"/>
+  <ellipse cx="76" cy="106" rx="8" ry="4" fill="#dfc09f"/>
+  <ellipse cx="60" cy="104" rx="10" ry="5" fill="#f0d5b5"/>
+
+  <!-- Head bowed low near hands -->
+  <ellipse cx="60" cy="80" rx="15" ry="14" fill="url(#bowHair)"/>
+  <ellipse cx="60" cy="72" rx="10" ry="8" fill="url(#bowHair)"/>
+
+  <!-- Folds of robe -->
+  <path d="M 38 74 Q 60 84 82 74" stroke="#5c6e80" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <path d="M 32 92 Q 60 102 88 92" stroke="#485664" stroke-width="1.8" fill="none" opacity="0.7"/>
+
+  <!-- Golden blessing rim light from Buddha altar -->
+  <path d="M 44 54 Q 60 50 76 54" stroke="#ffe899" stroke-width="2" fill="none" opacity="0.75"/>
+  <path d="M 48 70 Q 60 64 72 70" stroke="#ffe899" stroke-width="1.5" fill="none" opacity="0.65"/>
+</svg>
+

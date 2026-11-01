@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 160" width="120" height="160">
+  <defs>
+    <!-- Soft floor contact shadow -->
+    <radialGradient id="floorShadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.6"/>
+      <stop offset="70%" stop-color="#000000" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Áo Lam Grey-Blue Fabrics -->
+    <linearGradient id="aoLamBack" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#b6c6d8"/>
+      <stop offset="25%" stop-color="#9eb0c4"/>
+      <stop offset="70%" stop-color="#7d91a6"/>
+      <stop offset="100%" stop-color="#64768a"/>
+    </linearGradient>
+
+    <linearGradient id="aoLamFold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#687b8f"/>
+      <stop offset="50%" stop-color="#8ba0b5"/>
+      <stop offset="100%" stop-color="#5c6e80"/>
+    </linearGradient>
+
+    <linearGradient id="aoLamLower" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7b8e9f"/>
+      <stop offset="60%" stop-color="#586979"/>
+      <stop offset="100%" stop-color="#3d4955"/>
+    </linearGradient>
+
+    <!-- Hair Shading -->
+    <linearGradient id="hairGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffe8a3" stop-opacity="0.45"/> <!-- Halo rim light -->
+      <stop offset="15%" stop-color="#2a201c"/>
+      <stop offset="70%" stop-color="#140f0d"/>
+      <stop offset="100%" stop-color="#0d0908"/>
+    </linearGradient>
+
+    <!-- Halo Rim Light on Shoulders -->
+    <linearGradient id="haloRim" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffe699" stop-opacity="0.75"/>
+      <stop offset="35%" stop-color="#b6c6d8"/>
+      <stop offset="100%" stop-color="#708396"/>
+    </linearGradient>
+
+    <!-- Hands prayer glow -->
+    <radialGradient id="prayerHandsGlow" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#ffd56b" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#ffd56b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Ground Shadow -->
+  <ellipse cx="60" cy="150" rx="46" ry="9" fill="url(#floorShadow)"/>
+
+  <!-- Kneeling Legs & Robe Base (Back View) -->
+  <path d="M 22 144 C 18 135 24 116 34 112 C 45 108 75 108 86 112 C 96 116 102 135 98 144 C 95 149 84 152 60 152 C 36 152 25 149 22 144 Z" fill="url(#aoLamLower)"/>
+
+  <!-- Feet / Heels softly visible under robe hem -->
+  <ellipse cx="44" cy="143" rx="7" ry="4" fill="#dfc09f" opacity="0.85"/>
+  <ellipse cx="76" cy="143" rx="7" ry="4" fill="#dfc09f" opacity="0.85"/>
+
+  <!-- Lower Back & Tunic Hem -->
+  <path d="M 28 126 C 28 105 32 94 40 88 C 48 83 72 83 80 88 C 88 94 92 105 92 126 C 82 130 68 132 60 132 C 52 132 38 130 28 126 Z" fill="url(#aoLamBack)"/>
+
+  <!-- Center Tunic Seam Line -->
+  <path d="M 60 48 L 60 130" stroke="#556575" stroke-width="1.2" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Left Arm & Shoulder (Facing Altar) -->
+  <path d="M 44 48 C 30 52 16 66 18 84 C 20 98 28 108 38 108 C 42 108 46 96 46 88 C 46 76 45 60 44 48 Z" fill="url(#haloRim)"/>
+  <path d="M 20 82 C 22 96 30 106 38 106 C 42 106 44 96 44 88" stroke="#556575" stroke-width="1.2" fill="none" opacity="0.5"/>
+
+  <!-- Right Arm & Shoulder (Facing Altar) -->
+  <path d="M 76 48 C 90 52 104 66 102 84 C 100 98 92 108 82 108 C 78 108 74 96 74 88 C 74 76 75 60 76 48 Z" fill="url(#haloRim)"/>
+  <path d="M 100 82 C 98 96 90 106 82 106 C 78 106 76 96 76 88" stroke="#556575" stroke-width="1.2" fill="none" opacity="0.5"/>
+
+  <!-- Back of Upper Torso / Back Fabric -->
+  <path d="M 42 46 C 42 46 32 54 32 78 C 32 96 36 112 44 116 C 52 118 68 118 76 116 C 84 112 88 96 88 78 C 88 54 78 46 78 46 C 72 49 48 49 42 46 Z" fill="url(#aoLamBack)"/>
+
+  <!-- Fabric Folds & Creases on Back -->
+  <path d="M 42 66 Q 60 76 78 66" stroke="#667788" stroke-width="1.5" fill="none" opacity="0.55"/>
+  <path d="M 38 88 Q 60 100 82 88" stroke="#5c6e80" stroke-width="1.8" fill="none" opacity="0.6"/>
+  <path d="M 42 106 Q 60 115 78 106" stroke="#4d5c6b" stroke-width="1.5" fill="none" opacity="0.5"/>
+
+  <!-- Collar of Áo Lam (Back of Neck) -->
+  <path d="M 46 44 C 52 48 68 48 74 44 C 76 40 74 36 72 35 C 66 37 54 37 48 35 C 46 36 44 40 46 44 Z" fill="#8ca0b3"/>
+
+  <!-- Prayer Hands (Tips of Namaste Hands slightly visible in front of chest) -->
+  <circle cx="60" cy="38" r="14" fill="url(#prayerHandsGlow)"/>
+  <path d="M 57 32 C 57 26 59 22 60 20 C 61 22 63 26 63 32 C 63 36 61 39 60 39 C 59 39 57 36 57 32 Z" fill="#ebd2b0" stroke="#cfa87e" stroke-width="0.8"/>
+
+  <!-- Back of Neck -->
+  <path d="M 52 38 L 52 44 C 55 45 65 45 68 44 L 68 38 Z" fill="#d9b693"/>
+
+  <!-- Back of Head & Hair Bun (Viewed from Behind) -->
+  <!-- Main Head Shape -->
+  <ellipse cx="60" cy="27" rx="16" ry="17" fill="url(#hairGrad)"/>
+  
+  <!-- Neat Traditional Hair Bun (Búi tóc sau gáy) -->
+  <ellipse cx="60" cy="18" rx="12" ry="10" fill="url(#hairGrad)"/>
+  <ellipse cx="60" cy="17" rx="8" ry="6" fill="#1b1411"/>
+
+  <!-- Subtle Hair Strands Highlight -->
+  <path d="M 48 24 Q 60 14 72 24" stroke="#ffe28a" stroke-width="0.8" fill="none" opacity="0.45"/>
+  <path d="M 52 18 Q 60 11 68 18" stroke="#ffe28a" stroke-width="0.8" fill="none" opacity="0.55"/>
+
+  <!-- Golden Halo Light Highlight on Head & Top of Shoulders from Buddha Altar -->
+  <path d="M 44 26 C 44 14 76 14 76 26" stroke="#ffe899" stroke-width="1.8" fill="none" opacity="0.6"/>
+  <path d="M 28 54 Q 38 48 48 46" stroke="#ffe899" stroke-width="1.2" fill="none" opacity="0.55"/>
+  <path d="M 92 54 Q 82 48 72 46" stroke="#ffe899" stroke-width="1.2" fill="none" opacity="0.55"/>
+</svg>
+
